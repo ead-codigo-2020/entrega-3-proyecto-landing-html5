@@ -13,6 +13,7 @@ h2{
    
    
 }
+/*PORTADA */
 .portada{
     background: url(../imagenes/Fondos/1.png) no-repeat center center fixed;
     background-size: cover;
@@ -28,6 +29,7 @@ h2{
     display: flex;
     float: right;
 }
+/*INTRODUCCION */
 .in{
     display: flex;
     margin-left: 50px;
@@ -54,4 +56,17 @@ h2{
     padding: 20px;
     margin-top: 90px;
     margin-right: 50px;
+}
+/* ACCESO DIRECTO */
+.acces{
+    text-align: center;
+    display: inline-flex;
+    margin: auto;
+    position: relative; 
+}
+.subtitulos{
+    text-align: center;
+    display: inline-flex;
+    margin: auto;
+    position: relative; 
 }
