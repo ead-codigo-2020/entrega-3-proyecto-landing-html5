@@ -1,8 +1,6 @@
 body{
     background: #292B30;
     background-size: cover;
-    margin: 50px;
-    margin-left: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h2#tit1{
@@ -17,6 +15,23 @@ h2#tit2{
     margin-right: 400px;
     margin-bottom: 100px;
     margin-top: 60px;
+    
+}
+h2#tit3{
+    color: white;
+    float: right;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    display: flex
+    
+}
+h2#tit4{
+    color: white;
+    float: right;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    display: block;
     
 }
 h3{
@@ -102,4 +117,43 @@ h3{
 .ejem1{
     display: flex;
     margin-bottom: 30px;
+}
+/*CARACTERISTICAS */
+.caracteristicas{
+    color: white;
+}
+.car1{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+.car2{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.caracteristicas p{
+padding: 15px;
+}
+/* SEMANTICAS */
+.container2{
+    color: white;
+}
+.grup1{
+    display: inline-flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.grup2{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.pie{
+    margin-top: 100px;
+    margin-left: 10px;
+    display: flex;
 }
