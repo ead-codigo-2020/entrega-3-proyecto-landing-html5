@@ -1,19 +1,22 @@
 body{
     background: #292B30;
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
+
+
 h2#tit1{
    color: white;
    margin-left: 50px; 
    margin-top: 30px;
    
 }
+
 h2#tit2{
     color: white;
     float: right;
-    margin-right: 450px;
-    margin-bottom: 100px;
+    margin-right: 480px;
+    margin-bottom: 50px;
     margin-top: 60px;
     
 }
@@ -36,8 +39,8 @@ h2#tit4{
 }
 h3{
     color: white;
-    margin-left: 50px;
-    padding: 30px;
+    margin-left: 20px;
+    padding: 70px;
     margin-top: 30px;
 }
 /*PORTADA */
@@ -46,11 +49,10 @@ h3{
     background-size: cover;
     background-attachment: scroll;
     height: 600px;
-    box-shadow: 4px 4px #FF5722;  
 }
 .logo{
     width: 400px;
-    height: 400px;
+    height: 410px;
     margin-top: 5%;
     margin-right: 100px;
     display: flex;
@@ -72,16 +74,16 @@ h3{
     color: white;
 }
 .expl{
-    width: 300px;
-    height: 300px;
-    margin-top: 5%;
+    width: 400px;
+    height: 355px;
+    margin-top: 2%;
     display: flex;
     float: left; 
-    padding: 50px;  
+    padding:20px;  
 }
 .expl2{
     padding: 20px;
-    margin-top: 90px;
+    margin-top: 71px;
     margin-right: 50px;
 }
 /* ACCESO DIRECTO */
@@ -108,11 +110,13 @@ h3{
 .container p{
     display: block;
     margin-left: 50%;
+    margin-right: 7%;
 }
 /*EJEMPLO 1*/
 .ejemplo1{
     background-color: #FF5722;
     color: white;
+    padding: 4px;
 }
 .ejem1{
     display: flex;
@@ -122,11 +126,24 @@ h3{
 .caracteristicas{
     color: white;
 }
+.container3{
+    background-color: #FF5722;
+    display: block;
+    margin-left: 12%;
+    margin-right: 0px;
+}
+
+.container4{
+    background-color: #FF5722;
+    display: block;
+    margin-left: 12%;
+    margin-right: 0px;
+}
 .car1{
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .car2{
     display: flex;
@@ -144,13 +161,13 @@ padding: 15px;
     display: inline-flex;
     padding: 10px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 230px;
     margin-right: 50px;
 }
 .grup2{
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 10px;
 }
 .pie{
     margin-top: 100px;
@@ -160,4 +177,18 @@ padding: 15px;
 .etiq{
     align-items: center;
     margin-bottom: 45px;
+}
+
+hr {
+    border-color:#FF5722;
+    padding-left:4px;
+    width: 1311px;
+    margin: 0px;
+    padding-left:10px;    
+    padding-right: 10px;
+    color: #FF5722;
+
+
+}
+
 }
